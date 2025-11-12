@@ -1,0 +1,39 @@
+===== Customer Dataset =====
+Shape: 5891 rows × 8 columns
+
+- Unnamed: 0 (int64) | Missing: 0.0% | Unique: 5891 | Example: 0
+- Customer_ID (int64) | Missing: 0.0% | Unique: 5891 | Example: 1000001
+- Gender (object) | Missing: 0.0% | Unique: 2 | Example: F
+- Age (object) | Missing: 0.0% | Unique: 7 | Example: 0-17
+- Occupation (int64) | Missing: 0.0% | Unique: 21 | Example: 10
+- City_Category (object) | Missing: 0.0% | Unique: 3 | Example: A
+- Stay_In_Current_City_Years (int64) | Missing: 0.0% | Unique: 5 | Example: 2
+- Marital_Status (int64) | Missing: 0.0% | Unique: 2 | Example: 0
+
+============================================================
+
+===== Product Dataset =====
+Shape: 3631 rows × 8 columns
+
+- Unnamed: 0 (int64) | Missing: 0.0% | Unique: 3631 | Example: 0
+- Product_ID (object) | Missing: 0.0% | Unique: 3631 | Example: P00069042
+- Product_Category (object) | Missing: 0.0% | Unique: 20 | Example: Home & Kitchen
+- price$ (float64) | Missing: 0.0% | Unique: 2930 | Example: 77.51
+- storeID (int64) | Missing: 0.0% | Unique: 8 | Example: 2
+- supplierID (int64) | Missing: 0.0% | Unique: 7 | Example: 13
+- storeName (object) | Missing: 0.0% | Unique: 8 | Example: Tech Haven
+- supplierName (object) | Missing: 0.0% | Unique: 7 | Example: Samsung Electronics
+
+============================================================
+
+===== Transaction Dataset =====
+Shape: 550068 rows × 6 columns
+
+- Unnamed: 0 (int64) | Missing: 0.0% | Unique: 550068 | Example: 0
+- orderID (int64) | Missing: 0.0% | Unique: 550068 | Example: 9914432
+- Customer_ID (int64) | Missing: 0.0% | Unique: 5891 | Example: 1000001
+- Product_ID (object) | Missing: 0.0% | Unique: 3631 | Example: P00069042
+- quantity (int64) | Missing: 0.0% | Unique: 3 | Example: 1
+- date (object) | Missing: 0.0% | Unique: 2192 | Example: 2020-12-29
+
+============================================================
