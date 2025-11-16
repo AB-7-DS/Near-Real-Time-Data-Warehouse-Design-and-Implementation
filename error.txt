@@ -1,0 +1,17 @@
+Attempting to connect to database 'wal_DW'...
+Successfully connected to the database.
+Loading data from CSV files...
+CSV data loaded, cleansed, and staged.
+Starting ETL process to populate staging table...
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+Error reading CSV: 
+.....

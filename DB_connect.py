@@ -1,13 +1,14 @@
 # db_connector.py
+import configparser
 import mysql.connector
-import getpass
 
 def get_db_credentials():
-    """Collects database credentials from the user."""
-    print("Please enter your MySQL database credentials:")
-    host = input("Host: ")
-    user = input("User: ")
-    password = getpass.getpass("Password: ")
+    """Reads database credentials from config.ini."""
+    config = configparser.ConfigParser()
+    config.read('config.ini')
+    host = config['database']['host']
+    user = config['database']['user']
+    password = config['database']['password']
     return host, user, password
 
 def connect_to_db(host, user, password, database=None):
